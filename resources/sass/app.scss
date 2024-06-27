@@ -1,0 +1,34 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+$fa-font-path: "../webfonts"; //追記
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome"; //追記
+@import '~@fortawesome/fontawesome-free/scss/solid'; //追記
+@import '~@fortawesome/fontawesome-free/scss/regular'; //追記
+@import '~@fortawesome/fontawesome-free/scss/brands'; //追記
+
+//pages _top.scssをよみこむ※先頭に _をつけたファイルはパーシャルファイル と呼ばれます
+@import "top";
+
+@import "sign_up";
+
+// ここから追記
+@import "sign_in";
+
+@import "show"; //この行を追記
+
+@import "edit"; //この行を追加する
+
+@import "jTinder"; // ここを追加
+
+@import "matching"; // この行を追加する 7-2
+
+@import "chat"; // この行を追加 8-2
